@@ -65,7 +65,7 @@ public class HashMap {
     //     int hash = key.hashCode()%16;
     //     if(array[hash] != null) {
     //         Node tempNode = array[hash];
-    //         if(tempNode.key == key) {
+    //         if(tempNode.key == key && tempNode.next == null) {
     //             array[hash] = null;
     //             return tempNode.value;
     //         }
